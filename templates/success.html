@@ -3,6 +3,7 @@
 <body>
 <p>File uploaded with success</p>
         <p>Loading time: {{ time }} second </p>
+        <p>Loading date: {{ date }} </p>
         <p>Link to download: <a href="{{ url_for('uploaded_file', filename=filename) }}">{{ filename }}</a></p>
 
 </body>
